@@ -1,19 +1,4 @@
-import { FaDev, FaGithub, FaLinkedinIn } from 'react-icons/fa'
-
-const links = [
-    // {
-    //     Icon: FaDev,
-    //     href: 'https://dev.to/',
-    // },
-    // {
-    //     Icon: FaGithub,
-    //     href: 'https://github.com',
-    // },
-    // {
-    //     Icon: FaLinkedinIn,
-    //     href: 'https://www.linkedin.com/in/',
-    // },
-]
+const links = []
 
 const SocialIcons = (): JSX.Element => (
     <div className="flex flex-row text-2xl my-6 text-gray-500 dark:text-gray-300">

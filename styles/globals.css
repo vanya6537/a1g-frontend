@@ -9,7 +9,8 @@
     .prose img {
         @apply mx-auto shadow-md rounded;
     }
-    .prose figure, .prose figcaption {
+    .prose figure,
+    .prose figcaption {
         @apply text-center italic;
         margin-top: -1rem;
     }

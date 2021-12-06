@@ -1,5 +1,3 @@
-import SocialIcons from './SocialIcons'
-
 interface IProps {
     title: string
     subtitle?: string
@@ -18,6 +16,7 @@ const PageTitle = ({ title, subtitle = '', center = false, icons = true }: IProp
             </p>
         )}
         {/*{icons && <SocialIcons />}*/}
+        {icons && null}
     </div>
 )
 

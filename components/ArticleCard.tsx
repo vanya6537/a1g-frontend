@@ -1,6 +1,5 @@
 import moment from 'moment'
 import Link from './NoScrollLink'
-import { convertCanonicalURLToRelative } from '../lib/devto'
 
 interface IProps {
     title: string
@@ -20,9 +19,7 @@ const ArticleCard = ({
     coverImage = '',
 }: IProps): JSX.Element => (
     <div className="mb-14 flex flex-col sm:flex-row w-full">
-        <Link
-            href={`/`}
-        >
+        <Link href={`/`}>
             <a
                 className={`w-full text-gray-500 dark:text-gray-300 ${
                     coverImage ? 'sm:w-1/2 lg:w-1/2 xl:w-3/5' : 'sm:w-4/5'
